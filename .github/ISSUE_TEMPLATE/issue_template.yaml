@@ -7,7 +7,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      ## Congratulations on starting a new project! Please enter the basic information here.
+      ## Congratulations on starting a new project! Please enter project assignment details here.
 - type: input
   id: contact
   attributes:
@@ -19,12 +19,14 @@ body:
   id: charge-code
   attributes:
     label: Project Charge Code
+    placeholder: ex. AA-P123456-GPLG-TF01234 or IO 123456
   validations:
     required: false
 - type: input
   id: manager
   attributes:
     label: Project Manager
+    placeholder: Person responsible for client relationship and final deliverables
   validations:
     required: false
 - type: input
@@ -35,8 +37,15 @@ body:
   id: assignment-summary
   attributes:
     label: Project Assignment
-    description: Please provide a summary of the project and assignment
-- type: markdown
-  attributes:
-    value: |
-      Please add a task list, below, with individial tasks. Once all tasks are reviewed by the project manager and completed, this issue may be closed.
+    description: Please provide a summary of the project and assignment.
+
+items:
+  - text: '--- Header (title)'
+    checked: false
+  - text: 'Item #1'
+    checked: true
+  - text: 'Item #2'
+    checked: false
+  - text: 'Item #3'
+    checked: false
+    
