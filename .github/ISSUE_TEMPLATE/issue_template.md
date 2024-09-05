@@ -1,10 +1,7 @@
----
 name: Assignment Overview
 about: Use this template for setting up new Data Lab projects
 title: "[COUNTRY] | [PROJECT]"
 labels: data lab assignment
----
-
 body:
 - type: markdown
   attributes:
@@ -13,34 +10,34 @@ body:
 - type: input
   id: contact
   attributes:
-  label: Client Contact Email(s)
-  placeholder: ex. email@example.com
+    label: Client Contact Email(s)
+    placeholder: ex. email@example.com
   validations:
     required: false
-  - type: textarea
-    id: charge-code
-    attributes:
-      label: Project Charge Code
-      description: Also tell us, what did you expect to happen?
-    validations:
-      required: false
-  - type: textarea
-    id: manager
-    attributes:
-      label: Project Manager
-      required: false
-  - type: textarea
-    id: share-point
-    attributes:
-      label: Project Sharepoint URL
-  - type: textarea
-    id: assignment-summary
-    attributes:
-      label: Project Assignment
-      description: Please provide a summary of the project and assignment
-  - type: markdown
-    attributes:
-      value: |
-        Please add a task list, below, with individial tasks. Once all tasks are reviewed by the project manager and completed, this issue may be closed.
+- type: textarea
+  id: charge-code
+  attributes:
+    label: Project Charge Code
+    description: Also tell us, what did you expect to happen?
+  validations:
+    required: false
+- type: textarea
+  id: manager
+  attributes:
+    label: Project Manager
+    required: false
+- type: textarea
+  id: share-point
+  attributes:
+    label: Project Sharepoint URL
+- type: textarea
+  id: assignment-summary
+  attributes:
+    label: Project Assignment
+    description: Please provide a summary of the project and assignment
+- type: markdown
+  attributes:
+    value: |
+      Please add a task list, below, with individial tasks. Once all tasks are reviewed by the project manager and completed, this issue may be closed.
 
 
