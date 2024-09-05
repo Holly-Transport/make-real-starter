@@ -15,20 +15,20 @@ body:
     placeholder: ex. email@example.com
   validations:
     required: false
-- type: textarea
+- type: input
   id: charge-code
   attributes:
     label: Project Charge Code
     description: Also tell us, what did you expect to happen?
   validations:
     required: false
-- type: textarea
+- type: input
   id: manager
   attributes:
     label: Project Manager
   validations:
     required: false
-- type: textarea
+- type: input
   id: share-point
   attributes:
     label: Project Sharepoint URL
