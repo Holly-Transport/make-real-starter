@@ -4,7 +4,7 @@ about: Use this template for setting up new Data Lab projects
 title: "[COUNTRY] | [PROJECT]"
 labels: data lab assignment
 ---
----
+
 body:
 - type: markdown
   attributes:
@@ -42,5 +42,5 @@ body:
     attributes:
       value: |
         Please add a task list, below, with individial tasks. Once all tasks are reviewed by the project manager and completed, this issue may be closed.
----
+
 
