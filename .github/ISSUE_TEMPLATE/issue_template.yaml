@@ -1,6 +1,5 @@
 
 name: Assignment Overview
-about: Use this template for setting up new Data Lab projects
 title: "[COUNTRY] | [PROJECT]"
 labels: data lab assignment
 body:
@@ -26,6 +25,7 @@ body:
   id: manager
   attributes:
     label: Project Manager
+  validations:
     required: false
 - type: textarea
   id: share-point
