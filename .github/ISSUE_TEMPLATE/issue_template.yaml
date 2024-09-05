@@ -1,5 +1,6 @@
 
 name: Assignment Overview
+description: Starting point for new Data Lab projects
 title: "[COUNTRY] | [PROJECT]"
 labels: data lab assignment
 body:
