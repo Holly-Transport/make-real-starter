@@ -6,17 +6,17 @@ labels: data lab assignment
 ---
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Congratulations on starting a new project! Please enter the basic information here.
-  - type: input
-    id: contact
-    attributes:
-      label: Client Contact Email(s)
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+- type: markdown
+  attributes:
+  value: |
+    Congratulations on starting a new project! Please enter the basic information here.
+- type: input
+  id: contact
+  attributes:
+  label: Client Contact Email(s)
+  placeholder: ex. email@example.com
+  validations:
+    required: false
   - type: textarea
     id: charge-code
     attributes:
