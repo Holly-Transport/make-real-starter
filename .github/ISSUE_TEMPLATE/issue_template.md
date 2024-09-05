@@ -8,7 +8,7 @@ body:
 - type: markdown
   attributes:
   value: |
-    Congratulations on starting a new project! Please enter the basic information here.
+  Congratulations on starting a new project! Please enter the basic information here.
 - type: input
   id: contact
   attributes:
