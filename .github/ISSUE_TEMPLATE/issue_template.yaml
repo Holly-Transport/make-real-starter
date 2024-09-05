@@ -33,19 +33,13 @@ body:
   id: share-point
   attributes:
     label: Project Sharepoint URL
+- type: input
+  id: proposal
+  attributes:
+    label: Link to Proposal and Work Plan Shared with Client
 - type: textarea
   id: assignment-summary
   attributes:
     label: Project Assignment
     description: Please provide a summary of the project and assignment.
-
-items:
-  - text: '--- Header (title)'
-    checked: false
-  - text: 'Item #1'
-    checked: true
-  - text: 'Item #2'
-    checked: false
-  - text: 'Item #3'
-    checked: false
     
