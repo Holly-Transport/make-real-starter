@@ -1,4 +1,3 @@
----
 name: Assignment Overview
 about: Use this template for setting up new Data Lab projects
 title: "[COUNTRY] | [PROJECT]"
@@ -7,8 +6,8 @@ labels: data lab assignment
 body:
 - type: markdown
   attributes:
-  value: |
-  Congratulations on starting a new project! Please enter the basic information here.
+    value: |
+      Congratulations on starting a new project! Please enter the basic information here.
 - type: input
   id: contact
   attributes:
@@ -42,4 +41,3 @@ body:
       value: |
         Please add a task list, below, with individial tasks. Once all tasks are reviewed by the project manager and completed, this issue may be closed.
 
----
